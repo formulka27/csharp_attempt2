@@ -14,7 +14,7 @@ namespace addressbook_web_tests
     {
         private IWebDriver driver;
         private StringBuilder verificationErrors;
-        private string baseURL;
+        private string baseURL  ;
         private bool acceptNextAlert = true;
 
         [SetUp]
